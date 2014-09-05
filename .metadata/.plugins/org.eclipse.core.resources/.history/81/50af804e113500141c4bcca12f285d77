@@ -1,0 +1,15 @@
+package br.com.example.olamundo;
+
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+
+public class Ouvinte implements OnClickListener {
+
+	@Override
+	public void onClick(View clicada) {
+		Log.i("TAG", "Botão Clicado!");
+		
+	}
+
+}
